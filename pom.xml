@@ -99,15 +99,15 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://172.31.28.22:8081/repository/icici-release/</url>
+	      <url>http://172.17.0.1:8085/nexus/content/repositories/mavenwebapp/</url>
 	    </repository>
 	    
-	    <snapshotRepository>
+	<!--    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
 	      <url>http://172.31.28.22:8081/repository/icici-snapshot//</url>
 	    </snapshotRepository>
-	    
+	    -->
 	</distributionManagement>
 	
 	<build>
